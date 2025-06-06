@@ -16,40 +16,63 @@
             <li><a href="#lesson4" class="hover:underline">Lesson 4</a></li>
         </ul>
     </nav>
+   <!-- LESSON 1 -->
     <div class="pt-16 max-w-4xl mx-auto px-4">
-        <section id="lesson1" class="py-10 border-b border-gray-300">
-            <h2 class="text-2xl font-bold text-blue-700 mb-4">Lesson 1: Indentation and Whitespace 📘</h2>
-            <p class="mb-2"><strong>Learning Target:</strong> I can use indentation and whitespace to structure my code.</p>
-            <p>Python uses indentation to define blocks of code. Proper indentation is crucial for the code to run correctly.</p>
-            <pre class="bg-gray-100 p-4 rounded"><code>def greet(name):
+      <section id="lesson1" class="bg-white p-6 rounded-xl shadow-lg mb-10">
+          <h2 class="lesson-heading">Lesson 1: Indentation and Whitespace</h2>
+
+        <div class="bg-indigo-50 p-4 rounded-md mb-4">
+          <h3 class="subheading">Learning Target</h3>
+          <p id="text">I can use indentation and whitespace to structure my code.</p>
+        </div>
+
+
+
+
+          <p id="text">Python uses indentation to define blocks of code. Proper indentation is crucial for the code to run correctly.</p>
+          <pre class="bg-gray-100 p-4 rounded"><code>def greet(name):
     print(f"Hello, {name}!")
 
-greet("Alice")</code></pre>
-            <h3 class="text-lg font-semibold mt-6 mb-2 text-green-700">Your Turn!</h3>
-            <p>Write a function that takes a number and prints whether it's even or odd. Make sure to use proper indentation.</p>
-            <div class="bg-white border border-gray-300 rounded p-4">
-                <p class="mb-2 font-semibold">Try it here:</p>
-                <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </section>
-        <section id="lesson2" class="py-10 border-b border-gray-300">
-            <h2 class="text-2xl font-bold text-blue-700 mb-4">Lesson 2: Writing Comments 📝</h2>
-            <p class="mb-2"><strong>Learning Target:</strong> I can write comments to explain my code.</p>
-            <p>Comments are lines in the code that are ignored by Python but help humans understand the code.</p>
-            <pre class="bg-gray-100 p-4 rounded"><code># This is a comment
-print("Hello, world!")  # This prints a message</code></pre>
-            <h3 class="text-lg font-semibold mt-6 mb-2 text-green-700">Your Turn!</h3>
-            <p>Write a small program with at least two comments that explain what each part does.</p>
-            <div class="bg-white border border-gray-300 rounded p-4">
-                <p class="mb-2 font-semibold">Try it here:</p>
-                <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </section>
-        <section id="lesson3" class="py-10 border-b border-gray-300">
-            <h2 class="text-2xl font-bold text-blue-700 mb-4">Lesson 3: Using Docstrings 📚</h2>
-            <p class="mb-2"><strong>Learning Target:</strong> I can use docstrings to document my functions.</p>
-            <p>Docstrings are special comments used to describe the purpose of a function or module.</p>
-            <pre class="bg-gray-100 p-4 rounded"><code>def add(a, b):
+    greet("Alice")</code></pre>
+          <h3 class="subheading">Your Turn!</h3>
+          <p id="text">Write a function that takes a number and prints whether it's even or odd. Make sure to use proper indentation.</p>
+          <div class="bg-white border border-gray-300 rounded p-4">
+              <p id="text">Try it here:</p>
+              <iframe src="https://trinket.io/python3/15775adcc142" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </section>
+
+      <section id="lesson2" class="bg-white p-6 rounded-xl shadow-lg mb-10">
+          <h2 class="lesson-heading">Lesson 2: Writing Comments</h2>
+
+        <div class="bg-indigo-50 p-4 rounded-md mb-4">
+          <h3 class="subheading">Learning Target</h3>
+          <p id="text">I can write comments to explain my code.</p>
+        </div>
+
+
+          <p id="text">Comments are lines in the code that are ignored by Python but help humans understand the code.</p>
+          <pre class="bg-gray-100 p-4 rounded"><code># This is a comment
+    print("Hello, world!")  # This prints a message</code></pre>
+          <h3 class="subheading">Your Turn!</h3>
+          <p id="text">Write a small program with at least two comments that explain what each part does.</p>
+          <div class="bg-white border border-gray-300 rounded p-4">
+              <p id="text">Try it here:</p>
+              <iframe src="https://trinket.io/python3/1376f4862301" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </section>
+
+
+      <section id="lesson3" class="bg-white p-6 rounded-xl shadow-lg mb-10">
+          <h2 class="lesson-heading">Lesson 3: Using Docstrings</h2>
+
+        <div class="bg-indigo-50 p-4 rounded-md mb-4">
+          <h3 class="subheading">Learning Target</h3>
+          <p id="text">I can use docstrings to document my functions.</p>
+        </div>
+
+          <p id="text">Docstrings are special comments used to describe the purpose of a function or module.</p>
+          <pre class="bg-gray-100 p-4 rounded"><code>def add(a, b):
     """
     This function adds two numbers.
     :param a: First number
@@ -57,26 +80,32 @@ print("Hello, world!")  # This prints a message</code></pre>
     :return: Sum of a and b
     """
     return a + b</code></pre>
-            <h3 class="text-lg font-semibold mt-6 mb-2 text-green-700">Your Turn!</h3>
-            <p>Write a function with a docstring that explains what the function does and its parameters.</p>
-            <div class="bg-white border border-gray-300 rounded p-4">
-                <p class="mb-2 font-semibold">Try it here:</p>
-                <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </section>
-        <section id="lesson4" class="py-10 border-b border-gray-300">
-            <h2 class="text-2xl font-bold text-blue-700 mb-4">Lesson 4: Generating Documentation with <code>pydoc</code> 📖</h2>
-            <p class="mb-2"><strong>Learning Target:</strong> I can generate documentation using <code>pydoc</code>.</p>
-            <p><code>pydoc</code> is a module that automatically generates documentation from docstrings.</p>
-            <pre class="bg-gray-100 p-4 rounded"><code># Run this command in the terminal to generate documentation
-# python -m pydoc -w mymodule</code></pre>
-            <h3 class="text-lg font-semibold mt-6 mb-2 text-green-700">Your Turn!</h3>
-            <p>Create a module with functions that have docstrings. Use <code>pydoc</code> to generate the documentation.</p>
-            <div class="bg-white border border-gray-300 rounded p-4">
-                <p class="mb-2 font-semibold">Try it here:</p>
-                <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </section>
+          <h3 class="subheading">Your Turn!</h3>
+          <p id="text">Write a function with a docstring that explains what the function does and its parameters.</p>
+          <div class="bg-white border border-gray-300 rounded p-4">
+              <p id="text">Try it here:</p>
+              <iframe src="https://trinket.io/python3/c65fbdc821b3" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </section>
+
+
+      <section id="lesson4" class="bg-white p-6 rounded-xl shadow-lg mb-10">
+          <h2 class="lesson-heading">Lesson 4: Generating Documentation with <code>pydoc</code> 📖</h2>
+
+        <div class="bg-indigo-50 p-4 rounded-md mb-4">
+          <h3 class="subheading">Learning Target</h3>
+          <p id="text">I can generate documentation using <code>pydoc</code>.</p>
+        </div>
+
+          <p><code>pydoc</code> is a module that automatically generates documentation from docstrings.</p>
+          <pre class="bg-gray-100 p-4 rounded"><code># Run this command in the terminal to generate documentation
+    # python -m pydoc -w mymodule</code></pre>
+          <h3 class="subheading">Your Turn!</h3>
+          <p id="text">Create a module with functions that have docstrings. Use <code>pydoc</code> to generate the documentation.</p>
+          <div class="bg-white border border-gray-300 rounded p-4">
+              <p id="text">Try it here:</p>
+              <iframe src="https://trinket.io/python3/d857c5a5e3fa" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+          </div>
+      </section>
     </div>
-</body>
-</html>
+  </main>
